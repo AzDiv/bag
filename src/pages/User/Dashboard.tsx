@@ -120,7 +120,7 @@ const Dashboard: React.FC = () => {
                   </h3>
                   <ol className="list-decimal list-inside text-blue-700 space-y-3 pl-1">
                     <li className="pb-2 border-b border-blue-100">Envoyez votre paiement en utilisant l'une des méthodes ci-dessous</li>
-                    <li className="pb-2 border-b border-blue-100">Soumettez une preuve de paiement via Telegram ou WhatsApp</li>
+                    <li className="pb-2 border-b border-blue-100">Soumettez une preuve de paiement via WhatsApp</li>
                     <li className="pb-2 border-b border-blue-100">Attendez la vérification de l'administrateur (généralement sous 24 heures)</li>
                     <li>Une fois vérifié, vous aurez accès à votre groupe et à toutes les fonctionnalités</li>
                   </ol>
@@ -133,16 +133,17 @@ const Dashboard: React.FC = () => {
                   </h3>
                   <div className="flex flex-wrap gap-4">
                     <a 
-                      href="https://t.me/boombag2025" 
+                      href="https://wa.me/+33780892557" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="btn bg-[#0088cc] text-white hover:bg-[#0077b5] focus:ring-blue-500 flex items-center"
+                      className="btn bg-[#25D366] text-white hover:bg-[#128C7E] focus:ring-green-500 flex items-center"
                     >
                       <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.069l-1.68 8.057c-.133.644-.489.8-.989.498L11 13.117l-2.125 2.058c-.235.237-.432.434-.887.434l.307-4.378 7.968-7.194c.346-.307-.075-.478-.532-.172L5.412 10.17l-2.247-.745c-.49-.158-.497-.479.109-.711l17.764-6.84c.424-.175.81.106.656.564z" />
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                       </svg>
-                      Contacter via Telegram
+                      Contacter via WhatsApp
                     </a>
+                    
                   </div>
                 </div>
               </div>
@@ -162,7 +163,7 @@ const Dashboard: React.FC = () => {
                     <div className="flex items-center p-4 bg-yellow-50 rounded-lg">
                       <AlertTriangle className="h-5 w-5 text-yellow-500 mr-3 flex-shrink-0" />
                       <p className="text-sm text-yellow-700">
-                        Après le paiement, envoyez une capture d'écran de votre preuve de paiement à notre équipe via Telegram.
+                        Après le paiement, envoyez une capture d'écran de votre preuve de paiement à notre équipe via WhatsApp.
                       </p>
                     </div>
                   </div>

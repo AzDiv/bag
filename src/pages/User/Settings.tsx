@@ -140,18 +140,24 @@ const Settings: React.FC = () => {
                   </p>
                 </div>
                 
-                {/* Telegram Link */}
+                {/* WhatsApp Link */}
                 <div className="pt-2">
-                  <a 
-                    href="https://t.me/boombag2025" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 py-2 px-4 bg-[#0088cc] text-white rounded-lg hover:bg-[#0077b5] transition-colors w-full"
+                  <a
+                  href="https://wa.me/message/VJI5TNRKIZ3VN1?src=qr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-3 py-3 px-5 bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white rounded-xl shadow hover:from-[#20BD5C] hover:to-[#0e6e5c] transition-all duration-200 w-full group"
                   >
-                    <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.069l-1.68 8.057c-.133.644-.489.8-.989.498L11 13.117l-2.125 2.058c-.235.237-.432.434-.887.434l.307-4.378 7.968-7.194c.346-.307-.075-.478-.532-.172L5.412 10.17l-2.247-.745c-.49-.158-.497-.479.109-.711l17.764-6.84c.424-.175.81.106.656.564z" />
+                  <span className="flex items-center justify-center bg-white bg-opacity-20 rounded-full p-2 group-hover:bg-opacity-30 transition">
+                    <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                    <path d="M11.996 0C5.372 0 0 5.367 0 11.992c0 2.625.846 5.051 2.285 7.024l-1.488 5.445 5.589-1.463c1.894 1.234 4.139 1.953 6.554 1.953 6.623 0 12.004-5.367 12.004-11.992C24.943 5.37 19.561 0 11.996 0zm0 21.883c-2.211 0-4.292-.6-6.073-1.644l-.436-.259-4.508 1.18 1.206-4.394-.285-.455A9.864 9.864 0 0 1 .105 11.992c0-5.478 4.463-9.939 9.943-9.939 5.478 0 9.941 4.461 9.941 9.939.002 5.48-4.461 9.941-9.993 9.891z" fillRule="evenodd"/>
                     </svg>
-                    Besoin d'aide supplémentaire ?
+                  </span>
+                  <span className="flex flex-col items-start">
+                    <span className="font-semibold text-base">Besoin d'aide supplémentaire&nbsp;?</span>
+                    <span className="text-xs text-white/80">Contactez-nous sur WhatsApp</span>
+                  </span>
                   </a>
                 </div>
                 

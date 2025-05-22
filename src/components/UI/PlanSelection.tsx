@@ -138,21 +138,13 @@ const PlanSelection: React.FC = () => {
             </p>
             <div className="flex flex-wrap gap-3 justify-center">
               <a 
-                href="https://t.me/boombag2025" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="btn bg-[#0088cc] text-white hover:bg-[#0077b5] focus:ring-primary shadow"
-              >
-                Soumettre via Telegram
-              </a>
-              {/*<a 
-                href="https://wa.me/" 
+                href="https://wa.me/message/VJI5TNRKIZ3VN1?src=qr" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn bg-[#25D366] text-white hover:bg-[#128C7E] focus:ring-success shadow"
               >
                 Submit via WhatsApp
-              </a>*/}
+              </a>
             </div>
           </div>
         )}
